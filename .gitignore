@@ -1,0 +1,22 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Django
+backend/.env
+*.sqlite3
+staticfiles/
+
+# Node / React
+frontend/node_modules/
+frontend/build/
+npm-debug.log*
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
